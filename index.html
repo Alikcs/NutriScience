@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нутрициология | Наука о здоровом питании</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#home" class="logo">NutriScience</a>
+            <ul class="nav-list">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Что это такое</a></li>
+                <li><a href="#basics">Основы</a></li>
+                <li><a href="#gut-brain">Кишечник и мозг</a></li>
+                <li><a href="#calories">Расчёт калорий</a></li>
+                
+            </ul>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Приветствие с каруселью -->
+        <section id="home" class="hero">
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <img src="img1.jpg" alt="Здоровое питание">
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img2.jpg" alt="Фрукты и овощи">
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img4.jpg" alt="Нутрициология">
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img5.jpg" alt="Нутрициология">
+                    <div class="carousel-overlay"></div>
+                </div>
+            </div>
+            <div class="carousel-content">
+                <div class="container">
+                    <h1>Нутрициология — наука о здоровом питании</h1>
+                    <p>Изучаем влияние пищи на организм и качество жизни</p>
+                    <button class="cta-button">Узнать больше</button>
+                </div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+            </div>
+        </section>
+
+        <!-- Что такое нутрициология -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Что такое нутрициология?</h2>
+                <div class="content-wrapper">
+                    <p><strong>Нутрициология</strong> (от лат. «nutricium» — питание и греч. «logos» — учение) — это наука о питании. Она изучает всю цепочку, связанную с пищей: от ее состава и процессов потребления, усвоения и метаболизма в организме до влияния пищевых компонентов на здоровье, профилактику заболеваний и общее качество жизни.</p>
+                    
+                    <div class="info-card">
+                        <h3>Важное отличие</h3>
+                        <p>Нутрициологию часто путают с диетологией. Диетология — это раздел медицины, занимающийся лечением заболеваний через питание (например, составление лечебных диет при диабете или болезнях почек). Нутрициология же имеет более широкий, профилактический и оздоровительный фокус.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Основы нутрициологии -->
+        <section id="basics" class="section accent-bg">
+            <div class="container">
+                <h2>Основные понятия нутрициологии</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Пища как фундамент здоровья</h3>
+                        <p>Пища — это не просто средство утоления голода. Это строительный материал и источник энергии для всех процессов в нашем теле.</p>
+                        <ul>
+                            <li><strong>Строительная функция:</strong> Белки и жиры являются "кирпичиками" для создания новых клеток</li>
+                            <li><strong>Энергетическая функция:</strong> Углеводы и жиры — главные "топливные баки" организма</li>
+                            <li><strong>Регуляторная функция:</strong> Витамины и минералы запускают биохимические реакции</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Макро- и микронутриенты</h3>
+                        <p>Все питательные вещества делятся на две большие группы:</p>
+                        
+                        <h4>Макронутриенты</h4>
+                        <ul>
+                            <li><strong>Белки:</strong> 1 г = 4 ккал</li>
+                            <li><strong>Жиры:</strong> 1 г = 9 ккал</li>
+                            <li><strong>Углеводы:</strong> 1 г = 4 ккал</li>
+                        </ul>
+                        
+                        <h4>Микронутриенты</h4>
+                        <ul>
+                            <li><strong>Витамины:</strong> Органические соединения</li>
+                            <li><strong>Минералы:</strong> Неорганические элементы</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Калорийность и качество пищи</h3>
+                        <p><strong>Калорийность</strong> — это количество энергии, которое организм получает из пищи при ее полном усвоении.</p>
+                        <p>Однако нутрициология учит, что <strong>важна не только калория, но и ее "качество"</strong>. 200 ккал из пончика и 200 ккал из порции гречки с курицей — это не одно и то же. Пончик даст "пустые" калории, а гречка с курицей — питательные вещества, клетчатку и долгое чувство сытости.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Кишечник и мозг -->
+        <section id="gut-brain" class="section">
+            <div class="container">
+                <h2>Ось "кишечник - мозг": скрытый дирижер самочувствия</h2>
+                <div class="content-wrapper">
+                    <p>Это одно из самых ярких и современных открытий, которым активно занимается нутрициология. Кишечник и мозг связаны напрямую через блуждающий нерв и биохимические сигналы.</p>
+                    
+                    <div class="columns">
+                        <div class="column">
+                            <h3>Кишечник — "второй мозг"</h3>
+                            <p>В стенках кишечника находится огромная сеть нейронов (энтеральная нервная система). Он производит более 90% серотонина ("гормона счастья") и около 50% дофамина ("гормона мотивации").</p>
+                        </div>
+                        <div class="column">
+                            <h3>Роль микробиома</h3>
+                            <p>Триллионы бактерий, живущих в нашем кишечнике (микробиом), производят нейроактивные вещества, которые посылают сигналы прямо в мозг.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="influence">
+                        <h3>Влияние на человека:</h3>
+                        <ul>
+                            <li><strong>Психическое здоровье:</strong> Несбалансированное питание может ухудшить состав микробиома, что связывают с повышенным риском депрессии и тревожности.</li>
+                            <li><strong>Иммунитет:</strong> Около 70% иммунных клеток находится в кишечнике. Здоровый кишечник = крепкий иммунитет.</li>
+                            <li><strong>Пищевые привычки:</strong> Иногда бактерии "диктуют" нам, чего им хочется, чтобы обеспечить себе комфортную среду.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Расчет калорий -->
+        <section id="calories" class="section accent-bg">
+            <div class="container">
+                <h2>Расчет суточной калорийности: индивидуальный подход</h2>
+                <div class="content-wrapper">
+                    <p>Не существует единой для всех нормы калорий. Она рассчитывается индивидуально, исходя из нескольких параметров:</p>
+                    
+                    <div class="calculation-steps">
+                        <div class="step">
+                            <h3>1. Основной обмен (ОО или BMR)</h3>
+                            <p>Это количество калорий, которое организм тратит в состоянии полного покоя на поддержание жизни. Рассчитывается по формуле Миффлина-Сан Жеора:</p>
+                            
+                            <div class="formula-table">
+                                <div class="formula-row">
+                                    <div class="formula-header">Пол</div>
+                                    <div class="formula-header">Формула расчета Основного Обмена (ОО)</div>
+                                </div>
+                                <div class="formula-row">
+                                    <div class="formula-cell">Для мужчин</div>
+                                    <div class="formula-cell"><code>ОО = 10 × вес (кг) + 6,25 × рост (см) – 5 × возраст (лет) + 5</code></div>
+                                </div>
+                                <div class="formula-row">
+                                    <div class="formula-cell">Для женщин</div>
+                                    <div class="formula-cell"><code>ОО = 10 × вес (кг) + 6,25 × рост (см) – 5 × возраст (лет) – 161</code></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <h3>2. Учет физической активности</h3>
+                            <p>Полученную цифру Основного Обмена (ОО) необходимо умножить на Коэффициент Физической Активности (КФА):</p>
+                            
+                            <div class="activity-table">
+                                <div class="activity-row">
+                                    <div class="activity-header">Уровень активности</div>
+                                    <div class="activity-header">Описание</div>
+                                    <div class="activity-header">Коэффициент (КФА)</div>
+                                </div>
+                                <div class="activity-row">
+                                    <div class="activity-cell">Минимальный</div>
+                                    <div class="activity-cell">Сидячая работа, отсутствие спорта</div>
+                                    <div class="activity-cell">1.2</div>
+                                </div>
+                                <div class="activity-row">
+                                    <div class="activity-cell">Низкий</div>
+                                    <div class="activity-cell">Легкие тренировки 1-3 раза в неделю</div>
+                                    <div class="activity-cell">1.375</div>
+                                </div>
+                                <div class="activity-row">
+                                    <div class="activity-cell">Средний</div>
+                                    <div class="activity-cell">Тренировки средней интенсивности 3-5 раз в неделю</div>
+                                    <div class="activity-cell">1.55</div>
+                                </div>
+                                <div class="activity-row">
+                                    <div class="activity-cell">Высокий</div>
+                                    <div class="activity-cell">Интенсивные тренировки 6-7 раз в неделю</div>
+                                    <div class="activity-cell">1.725</div>
+                                </div>
+                                <div class="activity-row">
+                                    <div class="activity-cell">Очень высокий</div>
+                                    <div class="activity-cell">Тяжелая физическая работа или тренировки 2 раза в день</div>
+                                    <div class="activity-cell">1.9</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <h3>3. Итоговая формула</h3>
+                            <div class="final-formula">
+                                <p><strong>Суточная норма калорий (СНК) = ОО × КФА</strong></p>
+                            </div>
+                            <p>Полученная цифра является точкой отсчета. Для создания дефицита веса из нее вычитают 10-20%, для набора массы — прибавляют 10-20%.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h4>NutriScience</h4>
+                    <p>Информационный ресурс о науке нутрициологии</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">Что это такое</a></li>
+                        <li><a href="#basics">Основы</a></li>
+                        <li><a href="#gut-brain">Кишечник и мозг</a></li>
+                        <li><a href="#calories">Расчёт калорий</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 NutriScience. Информационный проект о нутрициологии</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
